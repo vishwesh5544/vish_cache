@@ -1,20 +1,28 @@
 {
-  "name": "vish-cache",
-  "version": "1.0.0",
-  "description": "Advanced caching system for Node.js, inspired by Caffeine.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
-  "keywords": ["cache", "caffeine", "nodejs", "typescript"],
-  "author": "Vishwesh Shukla",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^5.0.0",
-    "ts-node": "^10.0.0",
-    "@types/node": "^18.0.0",
-    "jest": "^29.0.0",
-    "ts-jest": "^29.0.0"
-  }
+    "name": "vish-cache",
+    "version": "1.0.0",
+    "description": "Advanced caching system for Node.js, inspired by Caffeine.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "test:single": "jest --testPathPattern"
+    },
+    "keywords": [
+        "cache",
+        "caffeine",
+        "nodejs",
+        "typescript"
+    ],
+    "author": "Vishwesh Shukla",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^29.5.13",
+        "@types/node": "^18.0.0",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.5",
+        "ts-node": "^10.0.0",
+        "typescript": "^5.0.0"
+    }
 }
